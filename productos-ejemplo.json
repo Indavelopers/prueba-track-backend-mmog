@@ -1,0 +1,57 @@
+{
+  "_schema": {
+    "description": "Esquema para los productos del catálogo.",
+    "object_type": "producto",
+    "fields": {
+      "nombre": {
+        "type": "string",
+        "description": "Nombre del producto.",
+        "required": true
+      },
+      "precio": {
+        "type": "float",
+        "description": "Precio del producto en formato decimal.",
+        "required": true
+      },
+      "disponible": {
+        "type": "boolean",
+        "description": "Indica si el producto está en stock.",
+        "required": true
+      },
+      "etiquetas": {
+        "type": "array",
+        "description": "Lista de etiquetas para categorizar el producto.",
+        "required": false,
+        "elements": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "productos": [
+    {
+      "nombre": "Laptop ultradelgado",
+      "precio": 1299.99,
+      "disponible": true,
+      "etiquetas": ["tecnología", "portátil", "oficina"]
+    },
+    {
+      "nombre": "Cafetera de goteo",
+      "precio": 59.50,
+      "disponible": true,
+      "etiquetas": ["hogar", "cocina", "electrodoméstico"]
+    },
+    {
+      "nombre": "Zapatillas para correr",
+      "precio": 85.00,
+      "disponible": false,
+      "etiquetas": ["deporte", "calzado", "running"]
+    },
+    {
+      "nombre": "Libro de ciencia ficción",
+      "precio": 22.75,
+      "disponible": true,
+      "etiquetas": ["lectura", "entretenimiento", "libros"]
+    }
+  ]
+}

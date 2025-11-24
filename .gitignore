@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Test & coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Installer logs
+pip-log.txt
+
+# IDE configuration files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Flask instance folder
+instance/
+
+# Local environment variables
+.env
+*.env
+
+# Google Cloud SDK configuration
+.gcloud/
+
+# Temporary files
+*.log
+*.tmp
